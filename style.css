@@ -1,0 +1,36 @@
+h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.text-box div p{
+    color: red;
+}
+div ~ h3 ~ p{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+
+/* task 2 */
+ol:first-child{
+    background-color: aqua;
+}
+ol:nth-child(3n){
+    background-color: antiquewhite;
+}
+ol:nth-child(even){
+    background-color: aquamarine;
+}
+ol:nth-child(n+2){
+    color: blue;
+}
+ol:nth-child(-n+2){
+    color: black;
+}
+ol:hover{
+    background-color: burlywood;
+    color: black;
+}
